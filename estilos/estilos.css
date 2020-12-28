@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat" , sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 100vh;
+    margin-left: 60px;
+}
+
+
+
+p{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 2px;
+
+}
+.color-titulo{
+    color: #8338ec;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+h3{
+    text-align:left;
+    font-weight: 400;
+    color: #61617a;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+    
+.boton-uno{
+    text-align: center;
+    background-color: #8338ec;    
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+    height: 35%;
+    border-radius: 30px;
+}
+
+.boton-uno:hover{
+    background-color: #995cef;    
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 50%;
+    height: 35%;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.panel-derecho{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 50vw;
+    height: 60vh;
+}
+
